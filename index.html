@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <button id="scrollToTopBtn"><i class="fas fa-arrow-up"></i> </button>
+
+    <header>
+        <div class="logo"> 
+            <h2>Logo</h2>
+        </div>
+        <nav>
+            <ul class="top-nav">
+                <li><a href="#"><i class="fa-regular fa-bell"></i></a></li>
+                <li class="icon">
+                    <img src="./images/image1.jpg" alt="">
+                    <span>&#10095;</span>
+                </li>
+                <button class="mobile-menu-toggle">&#9776;</button>
+            </ul>
+            <ul class="bottom-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#events-details">Events</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- main content -->
+
+    <!-- <section> -->
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa-solid fa-house"></i> </li>
+            <li><i class="fa-regular fa-bell"></i> </li>
+            <li><i class="fa-solid fa-calendar"></i> </li>
+            <li><i class="fa-solid fa-bolt"></i> </li>
+            <li><i class="fa-regular fa-user"></i> </li>
+            <li><i class="fa-solid fa-wallet"></i> </li>
+            <li id="setting"><i class="fa-solid fa-gear"></i> </li>
+        </ul>
+    </div>
+
+    <div class="sidebar-submenu">
+        <h3><span>&#10094;</span>Setting</h3>
+        <ul>
+            <li><a href="#profile"><i class="fa-regular fa-user"></i> Profile</a> </li>
+            <li><a href="#Notification"><i class="fa-regular fa-bell"></i> Notification</a> </li>
+            <li> <a href="#appearence"><i class="fa-solid fa-gear"></i>Appearence </a></li>
+            <li> <a href="#security"><i class="fa-solid fa-lock"></i>Security </a></li>
+            <li> <a href="#wallet"><i class="fa-solid fa-wallet"></i>Wallet </a></li>
+            <li> <a href="#payment"><i class="fa-solid fa-wallet"></i>Payment Details </a></li>
+            <li> <a href="#help"><i class="fa-solid fa-circle-question"></i>Help </a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <!-- home content -->
+        <div class="content-page" id="home">
+            <div class="home-user">
+                <img src="./images/imag2.jpeg" alt="">
+                <div class="home-user-details">
+                    <img src="./images/image1.jpg" alt="">
+                    <div class="user-name">
+                        <h2>Hema Dixit</h2>
+                        <h3>Vece President at <span>DesignMag Expo</span></h3>
+                        <p><i class="fa-solid fa-location-dot"></i>Pune,Maharashtra,India</p>
+                        <p><i class="fa-solid fa-link"></i><a href="desigmagexpo.com">desigmagexpo.com</a></p>
+                        <p><i class="fa-solid fa-calendar-days"></i>Joined Jan 2024</p>
+                    </div>
+                    <button class="profile-btn">Edit Profile</button>
+                </div>
+            </div>
+            <div class="home-buttons">
+                <button class="btn">CREATE NEW EVENT <span>&#10230;</span></button>
+                <button class="btn">ADD HALLS/FLOORS TO EXISTING EVENTS <span>&#10230;</span></button>
+            </div>
+
+            <div class="event-heading">
+                <h3>Events Created:07</h3>
+                <p>Filter<span>&#10095;</span></p>
+            </div>
+
+            <div class="home-event">
+                <div class="home-event-card">
+                    <img src="./images/v2_216.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>DESIGN MAG EXPO 2024</h3>
+                        <P>MG Exhibition Ground,Pune,India</P>
+                        <p>10 - 15 Jan 2024</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+
+                </div>
+                <div class="home-event-card">
+                    <img src="./images/v2_225.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>DESIGN MAG EXPO 2024</h3>
+                        <P>MG Exhibition Ground,Pune,India</P>
+                        <p>12 - 17 Jan 2023</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+
+                </div>
+                <div class="home-event-card">
+                    <img src="./images/v2_234.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>HOMETEX EXPO 2023</h3>
+                        <P>MG Exhibition Ground,Pune,India</P>
+                        <p>19 - 23 Dec 2023</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+
+                </div>
+                <div class="home-event-card">
+                    <img src="./images/v2_216.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>AI EXHIBITION 2022</h3>
+                        <P>Delhi,New Delhi,India</P>
+                        <p>10 - 15 July 2022</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+
+                </div>
+                <div class="home-event-card">
+                    <img src="./images/v2_225.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>IMAX GUJRAT</h3>
+                        <P>Gandhinagar,Gujrat,India</P>
+                        <p>5 - 8 July 2023</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+
+                </div>
+                <div class="home-event-card">
+                    <img src="./images/v2_234.png" alt="">
+                    <div class="home-event-card-details">
+                        <h3>GLOBAL INDIA</h3>
+                        <P>Pune,Maharashtra,India</P>
+                        <p>11 - 15 December 2023</p>
+                        <button>View Details<span>&#10230;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- profile content -->
+
+        <div class="content-page" id="profile">
+            <div class="profile-user">
+                <div class="profile-user-details">
+                    <img src="./images/image1.jpg" alt="" />
+                    <div class="user-name">
+                        <h2>Hema Dixit</h2>
+                        <h3>Vece President at <span>DesignMag Expo</span></h3>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>Pune,Maharashtra,India
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-link"></i><a href="desigmagexpo.com">desigmagexpo.com</a>
+                        </p>
+                        <p><i class="fa-solid fa-calendar-days"></i>Joined Jan 2024</p>
+                    </div>
+                    <button class="profile-button">Edit Profile</button>
+                </div>
+                <div class="event-buttons">
+                    <button class="btn">
+                        CREATE <br />NEW EVENT <span>&#10230;</span>
+                    </button>
+                    <button class="btn">
+                        ADD HALLS/FLOORS TO EXISTING EVENTS <span>&#10230;</span>
+                    </button>
+                </div>
+            </div>
+            <div class="event-name">
+                <h2>Events Name: Design Mag Expo 2024 (2024011015DME)</h2>
+            </div>
+            <div class="event-container">
+                <div class="events">
+                    <div class="events-options">
+                        <button class="event-overview-btn active" data-target="overview">Events Overview </button>
+                        <button class="event-overview-btn" data-target="booking-recieved">Booking
+                            Received<span>(50)</span></button>
+                        <button class="event-overview-btn" data-target="booking-confirmed">Booking
+                            Confirmed<span>(127)</span></button>
+                        <button class="event-overview-btn" data-target="booking-rejected">Booking
+                            Rejected<span>(7)</span></button>
+                    </div>
+                    <div class="event-section" id="overview">
+                        <div class="events-overview">
+                            <img src="images/v2_216.png" alt="" />
+                            <div class="event-details">
+                                <div class="event-details-item">
+                                    <h4>Event Unique ID</h4>
+                                    <h4>2024011015DME</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Event Name</h4>
+
+                                    <h4>DESIGN MAG EXPO 2024</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Event Venue</h4>
+
+                                    <h4>MG Exhibition Ground ,Pune,India</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Event Date</h4>
+
+                                    <h4>10-15 January 2024</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Start Booking Date</h4>
+
+                                    <h4>10 October 2023</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Close Booking Date</h4>
+                                    <h4>Still Running</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Discount Coupons</h4>
+                                    <div class="event-details-item-sub">
+                                        <h5>Available</h5>
+                                        <button class="popup-btn">SEE DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="events-overview">
+                            <div class="event-img">
+                                <img src="images/v2_216.png" alt="image">
+                                <img src="images/v2_216.png" alt="image">
+                            </div>
+                            <div class="event-details">
+                                <div class="event-details-item">
+                                    <h4>Total Number of <br>Halls/Floors Added</h4>
+                                    <h4>10</h4>
+                                </div>
+                                <div class="event-details-item">
+                                    <h4>Hallwise Salable <br>Area Created (sqm)</h4>
+                                    <!-- <div class="event-details-item-sub"> -->
+                                    <div class="event-details-item-sub-inner">
+                                        <div class="col">
+                                            <h5>Hall - 1</h5>
+                                            <h5>3,000</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 2</h5>
+                                            <h5>3,500</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 3</h5>
+                                            <h5>2,500</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 4</h5>
+                                            <h5>2,000</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 5</h5>
+                                            <h5>2,200</h5>
+                                        </div>
+
+                                        <div class="col">
+                                            <h5>Hall - 6</h5>
+                                            <h5>3,200</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 7</h5>
+                                            <h5>3,500</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 8</h5>
+                                            <h5>3,500</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall - 9</h5>
+                                            <h5>2,500</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Hall- 10</h5>
+                                            <h5>3,200</h5>
+                                        </div>
+                                        <!-- </div> -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="events-overview">
+                            <div class="event-img">
+                                <img src="images/v2_216.png" alt="" />
+                                <img src="images/v2_216.png" alt="" />
+                            </div>
+                            <div class="event-details">
+                                <div class="event-details-item">
+                                    <h4>
+                                        Total Salable Area <br />
+                                        Created(sqm)
+                                    </h4>
+                                    <h4>29,100</h4>
+                                </div>
+
+                                <div class="event-details-item">
+                                    <h4>Total Area Sold</h4>
+                                    <div class="event-details-item-sub">
+                                        <div class="event-details-item-sub-inner">
+                                            <h5>25500</h5>
+                                            <div class="progress">
+                                                <b>87%</b>
+                                            </div>
+                                        </div>
+                                        <button class="btn-secondry analytics-btn">View Analytics</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-action">
+                            <button class="action-btn">&#60;BACK</button>
+                            <div class="event-action-button">
+                                <button class="btn">PAUSE EVENT</button>
+                                <button class="btn">RESUME EVENT</button>
+                                <button class="btn">STOP EVENT</button>
+                                <button class="btn">DUPLICATE EVENT</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="event-section" id="booking-recieved">
+                        <div class="event-search">
+                            <div class="event-search-box">
+                                <input type="text" placeholder="Search ..." /><i class="fa fa-search"></i>
+                            </div>
+
+                            <div class="event-search-btn">
+                                <button>Filter By <span>></span></button>
+                                <button>Sort By <span>></span></button>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th data-label="Select All"><input type="checkbox" id="select-all-checkbox">Select All</th>
+                                        <th data-label="Booking ID">Booking ID</th>
+                                        <th data-label="Exhibitor Name">Exhibitor Name</th>
+                                        <th data-label="Address">Address</th>
+                                        <th data-label="Contact Details">Contact Details</th>
+                                        <th data-label="Products">Products</th>
+                                        <th data-label="Booth Number">Booth Number</th>
+                                        <th data-label="Hall Number">Hall Number</th>
+                                        <th data-label="PSR Code">PSR Code</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="approve-btn">Approve</button>
+                                        </td>
+                                        <td><button class="reject-btn">Reject</button></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="approve-btn">Approve</button>
+                                        </td>
+                                        <td><button class="reject-btn">Reject</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="approve-btn">Approve</button>
+                                        </td>
+                                        <td><button class="reject-btn">Reject</button></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <div class="event-section-footer">
+                            <div class="export-buttons">
+                                <button>
+                                    <span>&#60;</span> Back</button>
+                                        <div class="export-buttons-inner">
+                                            <button>Export</button>
+                                            <button>Export All</button>
+                                        </div>
+                            </div>
+
+                            <div class="pagination">
+                                <button class="first">
+                                    <span>&#60;</span><span>&#60;</span> </button>
+                                        <button class="previous">
+                                            <span>&#60;</span> </button>
+                                                <button class="page-number">1</button>
+                                                <button class="page-number">2</button>
+                                                <button class="page-number">3</button>
+                                                <button class="page-number">4</button>
+                                                <button class="page-number">5</button>
+                                                <span>.....</span>
+                                                <button class="page-number">10</button>
+                                                <button class="next">></button>
+                                                <button class="last">>></button>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="event-section" id="booking-confirmed">
+                        <div class="event-search">
+                            <div class="event-search-box">
+                                <input type="text" placeholder="Search ..." /><i class="fa fa-search"></i>
+                            </div>
+
+                            <div class="event-search-btn">
+                                <button>Filter By <span>></span></button>
+                                <button>Sort By <span>></span></button>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th data-label="Select All"><input type="checkbox" id="select-all-checkbox1">Select All</th>
+                                        <th data-label="Booking ID">Booking ID</th>
+                                        <th data-label="Exhibitor Name">Exhibitor Name</th>
+                                        <th data-label="Address">Address</th>
+                                        <th data-label="Contact Details">Contact Details</th>
+                                        <th data-label="Products">Products</th>
+                                        <th data-label="Booth Number">Booth Number</th>
+                                        <th data-label="Hall Number">Hall Number</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>         
+
+                                    </tr>
+                                
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>         
+
+                                    </tr>
+                               </tbody>
+                            </table>
+                        </div>
+                        <div class="event-section-footer">
+                            <div class="export-buttons">
+                                <button>
+                                    <span>&#60;</span> Back</button>
+                                        <div class="export-buttons-inner">
+                                            <button>Export</button>
+                                            <button>Export All</button>
+                                        </div>
+                            </div>
+
+                            <div class="pagination">
+                                <button class="first">
+                                    <span>&#60;</span><span>&#60;</span> </button>
+                                        <button class="previous">
+                                            <span>&#60;</span> </button>
+                                                <button class="page-number">1</button>
+                                                <button class="page-number">2</button>
+                                                <button class="page-number">3</button>
+                                                <button class="page-number">4</button>
+                                                <button class="page-number">5</button>
+                                                <span>.....</span>
+                                                <button class="page-number">10</button>
+                                                <button class="next">></button>
+                                                <button class="last">>></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-section" id="booking-rejected">
+                        <div class="event-search">
+                            <div class="event-search-box">
+                                <input type="text" placeholder="Search ..." /><i class="fa fa-search"></i>
+                            </div>
+
+                            <div class="event-search-btn">
+                                <button>Filter By <span>></span></button>
+                                <button>Sort By <span>></span></button>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th data-label="Select All"><input type="checkbox" id="select-all-checkbox2">Select All</th>
+                                        <th data-label="Booking ID">Booking ID</th>
+                                        <th data-label="Exhibitor Name">Exhibitor Name</th>
+                                        <th data-label="Address">Address</th>
+                                        <th data-label="Contact Details">Contact Details</th>
+                                        <th data-label="Products">Products</th>
+                                        <th data-label="Booth Number">Booth Number</th>
+                                        <th data-label="Hall Number">Hall Number</th>
+                                        <th data-label="PSR Code">PSR Code</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                       
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="resume-btn">Approve</button>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="resume-btn">Approve</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Select"><input type="checkbox"></td>
+                                        <td data-label="Booking ID">2024011015-AN</td>
+                                        <td data-label="Exhibitor Name">
+                                            <strong>Random Number</strong><br>
+                                            ABC Handicrafts India Pvt. Ltd.<br>
+                                            www.abc.com
+                                        </td>
+                                        <td data-label="Address">123, street Address,<br>Landmark, City,<br>District,
+                                            State,<br>Pin Code, Fax
+                                        </td>
+                                        <td data-label="Contact Details">Rajat
+                                            Verma<br>+91-1234567890<br>+91-120-123456<br>info@abc.com</td>
+                                        <td data-label="Products">Boxes,<br>Candle Holders,<br>Planters,<br>Garden
+                                            Accessories</td>
+                                        <td data-label="Booth Number">A 7/11</td>
+                                        <td data-label="Hall Number">7</td>
+                                        <td data-label="PSR Code">SS110224</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Action">
+                                            <button class="resume-btn">Approve</button>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+
+                        <div class="event-section-footer">
+                            <div class="export-buttons">
+                                <button>
+                                    < Back</button>
+                                        <div class="export-buttons-inner">
+                                            <button>Export</button>
+                                            <button>Export All</button>
+                                        </div>
+                            </div>
+
+                            <div class="pagination">
+                                <button class="first">
+                                    << </button>
+                                        <button class="previous">
+                                            < </button>
+                                                <button class="page-number">1</button>
+                                                <button class="page-number">2</button>
+                                                <button class="page-number">3</button>
+                                                <button class="page-number">4</button>
+                                                <button class="page-number">5</button>
+                                                <span>.....</span>
+                                                <button class="page-number">10</button>
+                                                <button class="next">></button>
+                                                <button class="last">>></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                    <div class="popup" id="popup">
+                        <div class="popup-container">
+                            <h1>Coupon(s):</h1>
+                            <table class="table">
+                                <thead>
+                                    <tr class="header">
+                                        <th>Coupon Details</th>
+                                        <th>Coupon Code</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Coupon Details">10% Discount on Booth in hall 9</td>
+                                        <td data-label="Coupon Code">10HN9</td>
+                                        <td data-label="Status" class="isactive">Active</td>
+                                        <td data-label="Action">
+                                            <button class="btn-secondry">Pause Code</button>
+                                            <button class="btn-secondry">Delete Code</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Coupon Details">15% Discount on Booth in hall 4</td>
+                                        <td data-label="Coupon Code">14HN4</td>
+                                        <td data-label="Status" class="paused">Paused</td>
+                                        <td data-label="Action">
+                                            <button class="btn-secondry">Resume Code</button>
+                                            <button class="btn-secondry">Delete Code</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Coupon Details">10% Discount on overall</td>
+                                        <td data-label="Coupon Code">SAVE10</td>
+                                        <td data-label="Status" class="isactive">Active</td>
+                                        <td data-label="Action">
+                                            <button class="btn-secondry">Pause Code</button>
+                                            <button class="btn-secondry">Delete Code</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="add-coupon">
+                                <h2>Add Coupon</h2>
+                                <input type="text" placeholder="Coupon Details" />
+                                <input type="text" placeholder="Coupon code" />
+                                <button class="btn-secondry">Add More</button>
+                            </div>
+                            <button class="btn-secondry back-btn">
+                                <span>&lt;</span> Back
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="analytics">
+                    <img src="/images/analytics.jpeg" alt="">
+                    <div class="analytics-content">
+                        <div class="status">
+                            <h2>Booked</h2>
+                            <h2>Reserved by Exhibitor</h2>
+                            <h2>Available for Booking</h2>
+                            <h2>Reserved by Organizer</h2>
+                        </div>
+                        <div class="booth">
+                            <div class="booth-info">
+                                <p>Booth Number</p>
+                                <p>H1 03/11</p>
+                            </div>
+                            <div class="booth-info">
+                                <p>Reserved By</p>
+                                <p>ABC India Pvt. Ltd.</p>
+                            </div>
+                            <div class="booth-info">
+                                <p>Area Booked</p>
+                                <p> 64 sqm</p>
+                            </div>
+                            <div class="booth-info">
+                                <p>Open Sides</p>
+                                <p>2</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="events-action-button">
+                        <button class="back-to-events">
+                            < Back</button>
+                                <button class="btn">Export Pdf</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="content-page" id="wallet">
+            <div class="wallet">
+                <div class="wallet-content">
+                    <div class="balance">
+                        <span>Your Current Balance</span>
+                        <h2>₹ 5,000.00</h2>
+                    </div>
+                    <button class="btn add-money-btn">+ Add Money to Wallet</button>
+                </div>
+                <div class="wallet-container">
+                    <div class="transaction-heading">
+                        <h2>All Transaction Details</h2>
+                        <button>Filter <span>></span></button>
+                    </div>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Payment Against</th>
+                                <th>Withdrawal</th>
+                                <th>Deposit</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo1.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>ABC Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">1500</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo2.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>XYZ Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220916</p>
+                                            <p>8 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">2000</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo3.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>XYZ Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220916</p>
+                                            <p>8 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">2000</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo4.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>XYZ Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220916</p>
+                                            <p>8 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">2000</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo5.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>XYZ Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220916</p>
+                                            <p>8 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">2000</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo6.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>XYZ Handicrafts Pvt Ltd.</h2>
+                                            <p>Transaction ID : 3645220916</p>
+                                            <p>8 Oct, 2014, Offline</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Withdrawal">2000</td>
+                                <td data-label="Deposit">none</td>
+                                <td data-label="Status"> <span><i class="fa fa-circle-check"></i></span>Success</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="overlay-money"></div>
+            <div class="addmoney" id="addmoney">
+                <div class="addmoney-container">
+                    <h1>
+                        Add Money
+                    </h1>
+                    <div class="payment-acc-to">
+                        <h2>Payment To</h2>
+                        <h2>:</h2>
+                        <div class="payment-to">
+                            <div class="company-name">
+                                <h2 class="payment-company">
+                                    ABC Handicrafts Pvt Ltd.
+                                </h2>
+                                <div class="bank-details">
+                                    <img src="/images/PNB-logo-hindi.png" alt="">
+                                    <div class="bank-name">
+                                        <h3>Punjab National Bank</h3>
+                                        <p>006000123400559968</p>
+                                        <p>IFSC PNB6001234</p>
+
+                                        <div class="bank-address">
+                                            <p>Exhibition Ground, Pragati Maidan,</p>
+                                            <p>New Delhi - 110002</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-acc-from">
+                        <h2>Payment From</h2>
+                        <h2>:</h2>
+                        <h2 class="payment-company">Company Pvt. Ltd.</h2>
+                    </div>
+                    <form type="submit" class="form">
+                        <div class="form-row">
+                            <div class="form-cell">
+                                <label for="transiction-id">transaction ID <span>*</span></label>
+                                <input type="text" id="paymentToName" name="paymentToName"
+                                    placeholder="Input transaction Id" required>
+                            </div>
+
+                            <div class="form-cell">
+                                <label for="paymentDate">Payment Date:</label>
+                                <input type="date" id="paymentDate" name="paymentDate" placeholder="Select Date">
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-cell">
+                                <label for="paymentToName">Payment To:</label>
+                                <input type="text" id="paymentToName" name="paymentToName"
+                                    placeholder="Payment to Name">
+                            </div>
+                            <div class="form-cell">
+                                <label for="paymentMode">Payment Mode:</label>
+                                <select id="paymentMode" name="paymentMode" placeholder="Select payment mode">
+                                    <option value="" disabled selected hidden>Select payment mode</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+
+                            <div class="form-cell">
+                                <label for="paymentReferences">Payment References <span>*</span></label>
+                                <input type="number" id="paymentAmount" name="paymentAmount"
+                                    placeholder="Enter Payment Amount">
+                            </div>
+                            <div class="form-cell">
+                                <label for="paymentReferences">Payment References:</label>
+                                <div class="file-enter">
+                                    <label for="file-input" class="file-label">
+                                        <i class="fa fa-upload"></i>
+                                        <input type="file" id="file-input" class="file-input">
+                                    </label>
+                                    <label for="file-input" class="file-label">
+                                        <i class="fa fa-upload"></i>
+                                        <input type="file" id="file-input" class="file-input">
+                                    </label>
+                                    <label for="file-input" class="file-label">
+                                        <i class="fa fa-upload"></i>
+                                        <input type="file" id="file-input" class="file-input">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Submit <span>&#8594;</span></button>
+                        <button class="back-btn-money">
+                            < Back</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="content-page" id="payment">
+            <div class="payment">
+                <div class="payment-container">
+                    <div class="payment-heading">
+                        <h2>Payment from Exhibitor Status</h2>
+                        <button>Filter <span>></span></button>
+                    </div>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Payment Against</th>
+                                <th>Amount Recieved</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo1.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>
+                                                ABC Handicrafts Pvt Ltd.
+                                            </h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct,2014,Offline</p>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Amount Recieved">1,500</td>
+                                <td data-label="Action">
+                                    <button class="btn-secondry">Payment Received</button>
+                                    <button class="btn-secondry">booking-confirmed</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo2.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>
+                                                ABC Handicrafts Pvt Ltd.
+                                            </h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct,2014,Offline</p>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Amount Recieved">1,500</td>
+                                <td data-label="Action">
+                                    <button class="btn-secondry">Payment Received</button>
+                                    <button class="btn-secondry">booking-confirmed</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo3.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>
+                                                ABC Handicrafts Pvt Ltd.
+                                            </h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct,2014,Offline</p>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Amount Recieved">1,500</td>
+                                <td data-label="Action">
+                                    <button class="btn-secondry">Payment Received</button>
+                                    <button class="btn-secondry">booking-confirmed</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo4.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>
+                                                ABC Handicrafts Pvt Ltd.
+                                            </h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct,2014,Offline</p>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Amount Recieved">1,500</td>
+                                <td data-label="Action">
+                                    <button class="btn-secondry">Payment Received</button>
+                                    <button class="btn-secondry">booking-confirmed</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Payment Against">
+                                    <div class="payment-to">
+                                        <img src="/images/logo5.jpeg" alt="">
+                                        <div class="company-name">
+                                            <h2>
+                                                ABC Handicrafts Pvt Ltd.
+                                            </h2>
+                                            <p>Transaction ID : 3645220915</p>
+                                            <p>7 Oct,2014,Offline</p>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-label="Amount Recieved">1,500</td>
+                                <td data-label="Action">
+                                    <button class="btn-secondry">Payment Received</button>
+                                    <button class="btn-secondry">booking-confirmed</button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="content-page" id="appearence">
+            <div class="payment-management">
+                <h2>
+                    Saved Accounts
+                </h2>
+                <button class="btn">+ <br>Add New</button>
+                <div class="saved-account">
+                    <div class="bank-details">
+                        <img src="/images/PNB-logo-hindi.png" alt="">
+                        <div class="bank-name">
+                            <h3>Punjab National Bank</h3>
+                            <p>006000123400559968</p>
+                            <p>IFSC PNB6001234</p>
+
+                            <div class="bank-address">
+                                <p>Exhibition Ground, Pragati Maidan,</p>
+                                <p>New Delhi - 110002</p>
+                            </div>
+                            <h2><span class="selected-check"><i class="fa-regular fa-circle-check"></i></span>Selected
+                                Default</h2>
+                        </div>
+                    </div>
+                    <div class="bank-details">
+                        <img src="/images/logoicici.jpeg" alt="">
+                        <div class="bank-name">
+                            <h3>ICICI BANK</h3>
+                            <p>00600012340012345</p>
+                            <p>IFSC ICICI60012345</p>
+
+                            <div class="bank-address">
+                                <p>Exhibition Ground, Pragati Maidan,</p>
+                                <p>New Delhi - 110002</p>
+                            </div>
+                            <h2><span><i class="fa-regular fa-circle-check"></i></span>Select Default</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-action-button">
+                    <button>
+                        < Back</button>
+                            <button>Payment History <span>→</span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- event-details -->
+        <div class="content-page" id="events-details">
+            <div class="events-container">
+                <h1>Event Details</h1>
+                <div class="events-section">
+                    <div class="events-overview">
+                        <img src="images/v2_216.png" alt="" />
+                        <div class="event-details">
+                            <div class="event-details-item">
+                                <h4>Event Name</h4>
+
+                                <h4>DESIGN MAG EXPO 2024</h4>
+                            </div>
+                            <div class="event-details-item">
+                                <h4>Event Venue</h4>
+
+                                <h4>MG Exhibition Ground ,Pune,India</h4>
+                            </div>
+                            <div class="event-details-item">
+                                <h4>Event Date</h4>
+
+                                <h4>10-15 January 2024</h4>
+                            </div>
+                            <div class="event-details-item">
+                                <h4>Start Booking Date</h4>
+
+                                <h4>10 October 2023</h4>
+                            </div>
+                            <div class="event-details-item">
+                                <h4>Event Status</h4>
+                                <h4>To be started</h4>
+                            </div>
+                            <div class="event-details-item">
+                                <h4>Organized By</h4>
+                                <h4>MAG FAIR GROUND</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="events-overview">
+                        <div>
+                            <div class="event-img">
+                                <img src="images/v2_216.png" alt="image">
+                                <img src="images/v2_216.png" alt="image">
+                            </div>
+                            <div class="event-img">
+                                <img src="images/v2_216.png" alt="image">
+                                <img src="images/v2_216.png" alt="image">
+                            </div>
+                        </div>
+                        <div class="review-container">
+                            <h2>Reviews & Ratings</h2>
+                            <div class="reviews-row">
+                                <div class="reviews-details">
+                                    <p>4.5 <span><i class="fa-solid fa-star"></i></span></p>
+                                    <p>3532 Ratings &</p>
+                                    <p>345 Reviews</p>
+                                </div>
+                                <div class="reviews-details">
+                                    <div class="ratings">
+                                        <p>5<i class="fa-sharp fa-solid fa-star"></i></p>
+                                        <span class="progress"></span>
+                                        <span>2,548</span>
+                                    </div>
+                                    <div class="ratings">
+                                        <p>4<i class="fa-sharp fa-solid fa-star"></i></p>
+                                        <span class="progress"></span>
+                                        <span>614</span>
+                                    </div>
+                                    <div class="ratings">
+                                        <p>3<i class="fa-sharp fa-solid fa-star"></i></p>
+                                        <span class="progress"></span>
+                                        <span>185</span>
+                                    </div>
+                                    <div class="ratings">
+                                        <p>2<i class="fa-sharp fa-solid fa-star"></i></p>
+                                        <span class="progress"></span>
+                                        <span>65</span>
+                                    </div>
+                                    <div class="ratings">
+                                        <p>1 <i class="fa-sharp fa-solid fa-star"></i></p>
+                                        <span class="progress"></span>
+                                        <span>119</span>
+                                    </div>
+
+
+                                </div>
+                                <div class="reviews-details">
+                                    <button>ADD REVIEW</button>
+                                </div>
+                            </div>
+                            <div class="review-container">
+                                <span class="star">5 <i class="fa-sharp fa-solid fa-star"></i></span>
+                                <h3>Very good event....highly recommended...</h3>
+                                <p>The fair motivates visitors with its comprehensive and clearly structured product
+                                    range and
+                                    its inspiring programme of events.</p>
+
+                                <div class="review-box">
+                                    <span class="box"></span>
+                                    <span class="box"></span>
+                                    <span class="box"></span>
+                                    <span class="box"></span>
+                                </div>
+                                <div class="review-by">
+                                    <h2>MRTHEW RARA</h2>
+                                    <div>
+                                        <p><i class="fa-regular fa-circle-check"></i>Certified
+                                            Organizer,Colombo.SriLanka</p>
+                                        <P>July,2023</P>
+                                    </div>
+                                    <div>
+                                        <p><i class="fa-solid fa-thumbs-up"></i>51</p>
+                                        <p><i class="fa-regular fa-thumbs-down"></i>7</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="review-container">
+                                <span class="star">2 <i class="fa-sharp fa-solid fa-star"></i></span>
+                                <h3>Could be way better</h3>
+                                <p>Looking for better customer support in future..</p>
+                                <div class="review-by">
+                                    <h2>JHON RIVERA</h2>
+                                    <div>
+                                        <p><i class="fa-regular fa-circle-check"></i>Certified Buyer,Alsmeer,Netherlands
+                                        </p>
+                                        <P>July,2023</P>
+                                    </div>
+                                    <div>
+                                        <p><i class="fa-solid fa-thumbs-up"></i>51</p>
+                                        <p><i class="fa-regular fa-thumbs-down"></i>7</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="review-container">
+                                <span class="star">1 <i class="fa-sharp fa-solid fa-star"></i></span>
+                                <h3>Disappointed with this edition</h3>
+                                <p>Hoping for market improvment by the upcoming edition</p>
+
+                                <span class="box"></span>
+                                <span class="box"></span>
+                                <span class="box"></span>
+                                <span class="box"></span>
+
+                                <div class="review-by">
+                                    <h2>MRTHEW RARA</h2>
+                                    <div>
+                                        <p><i class="fa-regular fa-circle-check"></i>Certified Exhibitor,Colombo,Sri
+                                            Lanka</p>
+                                        <P>July,2023</P>
+                                    </div>
+                                    <div>
+                                        <p><i class="fa-solid fa-thumbs-up"></i>51</p>
+                                        <p><i class="fa-regular fa-thumbs-down"></i>7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <!-- news  -->
+    <div class="news">
+        <h2>Stay updated with us!</h2>
+        <div class="input">
+            <input type="email" placeholder="Enter Your Email Address Here...">
+            <span>|</span>
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-box">
+            <div class="logo">
+                <h2>Logo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque, vero minus dicta consequuntur
+                    expedita impedit minima recusandae, et corrupti maxime quaerat, fugiat nemo illum sapiente
+                    necessitatibus. Numberbis mollitia consectetur a aut necessitatibus molestias veritatis?</p>
+            </div>
+            <div>
+                <h2 class="resources">RESOURCES</h2>
+                <ul class="resources-list">
+                    <li><a href="#">Media Stories</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="about-us">ABOUT US</h2>
+                <ul class="about-us-list">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Shared Values</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2> BUYER SERVICES</h2>
+                <ul class="buyer-services-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-media">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+           
+        </div>
+        <div class="copyright">
+            <span>© 2024 Company Name and its Affiliates. All rights reserved.</span>
+            <span class="v2_73">Refunds & Cancellation Privacy | Terms of Use</span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
